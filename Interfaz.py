@@ -1,7 +1,6 @@
 #Debe tener la libreria Tkinter para continuar
 import tkinter as tk
 from tkinter import *
-import secrets
 from tkinter.messagebox import *
 from tkinter import ttk
 #Se crea el objeto en este caso una ventana 
@@ -28,8 +27,8 @@ class CHISTE:
                         "— ¿Qué le dice una taza a otra?\n—¿Que taza ciendo?", 
                         "— Me da un café con leche corto.\n — Se me ha roto la máquina, cambio. ",
                         "— ¿Por qué lloraba el libro de matemáticas?\n — ¡Porque tenía muchos problemas!"]
-    def chistee(self):
-        print(secrets.choice(self.chistes))
+    #def chistee(self):
+        #print(secrets.choice(self.chistes))
     def click(self):
         top = Toplevel()
         top.geometry("400x250")
